@@ -2,16 +2,16 @@
   <div>
     <div class="card" style="width: 18rem">
       <img
-        :src="personagem.photo"
+        :src="superhero.photo"
         class="card-img-top"
-        alt="viuva-negra"
+        alt=""
       />
       <div class="card-body">
         <h5 class="card-title">
-          {{personagem.name}}
+          {{superhero.name}}
           </h5>
         <p class="card-text">
-          {{personagem.about}}
+          {{superhero.about}}
         </p>
         <a href="#" class="btn btn-primary">
           Preview
@@ -22,10 +22,10 @@
 </template>
 <script>
 export default {
-  name: 'Card_DC',
+  name: 'CardDC',
   props: {
-    personagem: {
-      type: Array,
+    superhero: {
+      type: Object,
       require: true,
     },
   },

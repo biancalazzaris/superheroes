@@ -25,7 +25,7 @@ export default {
   name: 'Card',
   props: {
     personagem: {
-      type: Array,
+      type: Object,
       require: true,
     },
   },
