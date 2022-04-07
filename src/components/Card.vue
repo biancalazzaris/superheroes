@@ -5,6 +5,7 @@
         :src="personagem.photo"
         class="card-img-top"
         alt="viuva-negra"
+        height="180vw"
       />
       <div class="card-body">
         <h5 class="card-title">

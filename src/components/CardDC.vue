@@ -5,6 +5,7 @@
         :src="superhero.photo"
         class="card-img-top"
         alt=""
+        height="180vw"
       />
       <div class="card-body">
         <h5 class="card-title">
