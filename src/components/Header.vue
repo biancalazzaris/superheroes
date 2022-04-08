@@ -3,7 +3,7 @@
     <nav class="navbar navbar-light bg-dark mb-3">
       <div class="container-fluid">
         <a class="navbar-brand text-light" href="/">MarvelApp</a>
-        <router-link class=" text-light" to="/form">Adicionar um novo personagem </router-link>
+        <router-link class="navbar-brand text-light" to="/form">Novo personagem </router-link>
 
       </div>
 

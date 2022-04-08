@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 import App from '../App.vue';
 import FormView from '@/views/FormView.vue';
 import HomeView from '@/views/HomeView.vue'
+import PersonagemProfile from '@/views/personagem/Profile.vue'
 
 
 Vue.use(VueRouter)
@@ -22,6 +23,11 @@ const routes = [
     path: '/form',
     name: 'form',
     component: FormView,
+  }, 
+  {
+    path: '/profile/:id', 
+    name: 'PersonagemProfile',
+    component: PersonagemProfile,
   }
 ];
 
